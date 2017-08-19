@@ -12,13 +12,21 @@ class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
         int sum = 0;
-        size_t arrayLength = nums.size();
+        bool add_flag = true;
+        vector<int> hashtable(20001, 0);
+        size_t array_size = nums.size();
 
-        sort(nums.begin(), nums.end());
-        for (int i = 0; i < arrayLength; i += 2) sum += nums[i];
+        for (size_t i = 0; i < array_size; i++) hashtable[10000+nums[i]]++;
+
+        for (size_t i = 0; i < 20001; i++) {
+            while (hashtable[i] > 0) {
+                if (add_flag) sum += i - 10000;
+                add_flag = !add_flag;
+                hashtable[i]--;
+            }
+        }
 
         return sum;
     }
 };
-
 #endif //INC_561_ARRAY_PARTITION_I_SOLUTION_H
