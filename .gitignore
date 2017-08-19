@@ -34,8 +34,12 @@
 # CMake dirs and files
 
 */cmake-build-debug/*
-*/CMakeLists.txt/*
+*/CMakeLists.txt
 
 # .idea
 
 */.idea/*
+
+# macOS .DS_Store
+
+.DS_Store
