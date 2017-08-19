@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dengchuyun/Projects/Practice/LeetCode/561. Array Partition I/main.cpp
+iostream
+-
+solution.h
+/Users/dengchuyun/Projects/Practice/LeetCode/561. Array Partition I/solution.h
+
+/Users/dengchuyun/Projects/Practice/LeetCode/561. Array Partition I/solution.h
+vector
+-
+
