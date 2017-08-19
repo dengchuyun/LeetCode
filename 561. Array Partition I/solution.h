@@ -23,10 +23,13 @@ public:
                 if (add_flag) sum += i - 10000;
                 add_flag = !add_flag;
                 hashtable[i]--;
+                array_size--;
             }
+            if (array_size <= 0) break;
         }
 
         return sum;
     }
 };
+
 #endif //INC_561_ARRAY_PARTITION_I_SOLUTION_H
