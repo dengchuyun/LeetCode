@@ -1,12 +1,8 @@
-//
-// Created by 邓楚云 on 2017/8/19.
-//
-
 #ifndef INC_561_ARRAY_PARTITION_I_SOLUTION_H
 #define INC_561_ARRAY_PARTITION_I_SOLUTION_H
 
 #include <vector>
-using std::vector;
+using namespace std;
 
 class Solution {
 public:
