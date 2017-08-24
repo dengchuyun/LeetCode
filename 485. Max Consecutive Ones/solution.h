@@ -11,17 +11,11 @@ public:
         size_t nums_size = nums.size();
 
         for (int i = 0; i < nums_size; ++i) {
-            if (nums[i] == 0) {
-                if (tmp_count > max_count)
-                    max_count = tmp_count;
+            if (nums[i] == 0)
                 tmp_count = 0;
-            }
             else
-                ++tmp_count;
+                max_count = max(++tmp_count, max_count);
         }
-
-        if (tmp_count > max_count)
-            max_count = tmp_count;
 
         return max_count;
     }
