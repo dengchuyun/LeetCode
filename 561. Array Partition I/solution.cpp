@@ -1,6 +1,3 @@
-#ifndef INC_561_ARRAY_PARTITION_I_SOLUTION_H
-#define INC_561_ARRAY_PARTITION_I_SOLUTION_H
-
 #include <vector>
 using namespace std;
 
@@ -27,5 +24,3 @@ public:
         return sum;
     }
 };
-
-#endif //INC_561_ARRAY_PARTITION_I_SOLUTION_H

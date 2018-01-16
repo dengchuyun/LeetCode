@@ -1,6 +1,3 @@
-#ifndef INC_485_MAX_CONSECUTIVE_ONES_SOLUTION_H
-#define INC_485_MAX_CONSECUTIVE_ONES_SOLUTION_H
-
 #include <vector>
 using namespace std;
 
@@ -20,5 +17,3 @@ public:
         return max_count;
     }
 };
-
-#endif //INC_485_MAX_CONSECUTIVE_ONES_SOLUTION_H

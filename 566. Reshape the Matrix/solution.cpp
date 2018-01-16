@@ -1,6 +1,3 @@
-#ifndef INC_566_RESHAPE_THE_MATRIX_SOLUTION_H
-#define INC_566_RESHAPE_THE_MATRIX_SOLUTION_H
-
 #include <vector>
 using namespace std;
 
@@ -20,5 +17,3 @@ public:
         return new_nums;
     }
 };
-
-#endif //INC_566_RESHAPE_THE_MATRIX_SOLUTION_H
